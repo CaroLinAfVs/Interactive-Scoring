@@ -1,5 +1,5 @@
 function Image() {
-    return (<div className="mb-8">
+    return (<div className="mb-8 ">
       <svg id="svg1" width="162" height="108" xmlns="http://www.w3.org/2000/svg">
         <g fill="none">
           <path
