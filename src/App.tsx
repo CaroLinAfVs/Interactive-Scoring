@@ -7,9 +7,9 @@ function App() {
   const [showHome, setShowHome] = useState<boolean>(true);
   const [selectedValue, setSelectedValue] = useState<number | null>(null);
 
-  const handleButtonClick = (value: number) => {
+  const handleButtonClick = (value: number | null) => { // Modificar el tipo del argumento
     setSelectedValue(value);
-    setShowHome(false); // Cambiar a la vista de Rating después de seleccionar un valor
+    setShowHome(false);
   };
 
   return (
